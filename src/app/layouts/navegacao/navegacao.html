@@ -1,0 +1,29 @@
+<div class="layout">
+  <aside class="sidebar">
+    <div class="sidebar-logo">
+      <img src="assets/imagens/logo.png" alt="SafeGate Logo">
+    </div>
+    <br>
+    <br>
+
+    <nav class="sidebar-nav" routerLink="turmas" routerLinkActive="menu-ativo">
+      <button class="nav-btn">Turmas</button>
+    </nav>
+      <nav class="sidebar-nav" routerLink="usuarios" routerLinkActive="menu-ativo">
+      <button class="nav-btn">Usuários</button>
+    </nav>
+      <button class="nav-btn sair">Sair</button>
+
+    <div class="sidebar-user">
+      <span class="user-icon">
+        <mat-icon>perm_identity</mat-icon>
+    </span>
+      <span class="user-email">usuario&#64;gmail.com</span>
+    </div>
+  </aside>
+  
+  <div class="sidenav-content">
+    <router-outlet> </router-outlet>
+  </div>
+
+</div>
