@@ -1,1 +1,45 @@
-<p>cadastrar-aluno works!</p>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SafeGate – Cadastro de aluno</title>
+  <link rel="stylesheet" href="./cadastrar-aluno.css" />
+</head>
+<body>
+
+  <div class="bg" style="background-image: url(assets/imagens/imagem_vinho.png);"></div>
+
+  <div class="wrapper">
+    <div class="card">
+
+      <div class="logo">
+        <img src="assets/imagens/logo.png" alt="SafeGate Logo" />
+        <br>
+        <h3>Cadastrar aluno</h3>
+      </div>
+
+      <form class="form" onsubmit="return false;">
+        <input
+          type="text"
+          class="input"
+          placeholder="Nome Completo"
+        />
+        <input
+          type="text"
+          class="input"
+          placeholder="Turma"
+        />
+        <input
+          type="text"
+          class="input"
+          placeholder="Turno"
+        />
+        <button type="submit" class="btn">Cadastrar</button>
+      </form>
+
+    </div>
+  </div>
+
+</body>
+</html>
